@@ -139,6 +139,7 @@ class Cropper
         }
 
         if (!$this->checkExistFile($this->destination_file) and
+            $this->checkExistFile($this->source_file) or
             $overwrite != false and
             $this->checkExistFile($this->source_file)
         ) {
@@ -309,12 +310,11 @@ class Cropper
     {
 
         try {
-            file_exists($path_file);
+            return file_exists($path_file);
         } catch (\Exception $e) {
             return false;
         }
 
-        return true;
     }
 
 
