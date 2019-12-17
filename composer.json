@@ -1,0 +1,15 @@
+{
+    "name": "asmx/cropper",
+    "description": "crop images, resize ond fit to size",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Asmx\\Cropper\\": "src/"
+        }
+    },
+    "require": {
+        "ext-gd": "*"
+    }
+}
