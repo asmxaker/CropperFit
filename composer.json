@@ -1,7 +1,7 @@
 {
     "name": "asmx/cropper",
     "description": "crop images, resize ond fit to size",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
